@@ -1,0 +1,167 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  font-family: "Josefin Sans", cursive;
+}
+
+.logo-image {
+  width: 10rem;
+}
+
+.column1 {
+  margin: 0px;
+}
+
+.banner-Image {
+  position: absolute;
+  left: 29.1%;
+  margin-left: auto;
+  height: 100vh;
+}
+
+.headerNav {
+  padding-top: 7%;
+  padding-left: 12.2%;
+}
+
+.maintext {
+  font-size: 1rem;
+  color: hsl(0, 36%, 70%);
+}
+
+.title-text {
+  font-size: 3rem;
+  letter-spacing: 12px;
+}
+
+.title {
+  color: hsl(0, 36%, 70%);
+  font-weight: 200;
+}
+
+.text {
+  padding: 15% 15%;
+}
+
+.emailInput {
+  color: hsl(0, 36%, 70%);
+  width: 400px;
+  height: 50px;
+  padding: 5%;
+  border: 0.1px solid hsl(0, 36%, 70%);
+  border-radius: 40px;
+}
+
+::placeholder {
+  color: hsl(0, 36%, 70%);
+  font-size: 0.8rem;
+}
+
+.error-text {
+  font-size: 0.9rem;
+  margin-left: 3%;
+  display: none;
+  margin-top: 2%;
+  color: hsl(0, 36%, 70%);
+}
+
+#alert {
+  position: absolute;
+  top: 23%;
+  left: 73%;
+  visibility: hidden;
+}
+
+.email {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.submitButton {
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  color: white;
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 80%;
+}
+
+.mobile-image {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  body {
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+
+  #alert {
+    left: 70%;
+    visibility: hidden;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .main {
+    padding: 0;
+    margin: 0;
+    max-width: 800px;
+  }
+
+  .banner-Image {
+    display: none;
+  }
+
+  .logo-image {
+    width: 8rem;
+  }
+
+  .emailInput {
+    width: 450px;
+  }
+
+  .submitButton {
+    left: 80%;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .mobile-image {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 110%;
+    overflow-x: hidden;
+  }
+
+  .headerNav {
+    padding-left: 0%;
+    padding-bottom: 5%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  span {
+    text-align: center;
+  }
+}
